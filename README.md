@@ -15,4 +15,5 @@ O projeto consiste no desenvolvimente de uma casa em realidade virtual na lingua
 | ----------- | ---------- |
 | Victor Augusto | Quartos e documentação |
 | Guilherme Schiavon | Montagem e modelagem do ambiente externo |
+| Bruno | Estrutura casa |
 ------------
