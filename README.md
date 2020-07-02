@@ -1,3 +1,6 @@
+# REPOSITÓRIO
+- [github](https://github.com/brunolaviso/house-vrml)
+
 # EQUIPE
 - Ana Laura Pereira Mariano
 - Bruno Henrique Laviso Adorne
@@ -22,3 +25,4 @@ O projeto consiste no desenvolvimente de uma casa em realidade virtual na lingua
 | Thiago | Banheiro |
 | Victor Augusto | Quartos e documentação |
 -------
+
