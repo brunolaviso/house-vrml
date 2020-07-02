@@ -1,0 +1,1139 @@
+#VRML V2.0 utf8
+
+#CHAO
+Transform
+{
+	translation	0 -1.5 0
+	#rotation 0 0 1 3.14
+	children
+	[
+		Shape
+		{
+			appearance Appearance
+			{
+				material Material { diffuseColor 1 0 0 }
+				texture	ImageTexture { url "chao-madeira.jpg"}
+			}
+			geometry Box { size 6.15 0.25 10.75 }
+		}
+	]
+}
+
+#--------------------------------------------------------------
+
+#PAREDE DA FRENTE pt Esquerda
+Transform
+{
+	translation	-2.575 0 5.25
+	#rotation 0 0 1 3.14
+	children
+	[
+		Shape
+		{
+			appearance Appearance
+			{
+				material Material { diffuseColor .671 .671 .682 
+				specularColor .49 .49 .49
+				emissiveColor .27 .3 .3
+				ambientIntensity 0
+				shininess .306
+			}
+			}
+			geometry Box { size 1 2.75 0.25 }
+		}
+	]
+}
+
+#PAREDE DA FRENTE pt Embaixo da janela
+Transform
+{
+	translation	-1.325 -0.825 5.25
+	#rotation 0 0 1 3.14
+	children
+	[
+		Shape
+		{
+			appearance Appearance
+			{
+				material Material 
+				{
+					diffuseColor .671 .671 .682 
+					specularColor .49 .49 .49
+					emissiveColor .27 .3 .3
+					ambientIntensity 0
+					shininess .306
+				}
+			}
+			geometry Box { size 1.5 1.1 0.25 }
+		}
+	]
+}
+
+#PAREDE DA FRENTE pt Em cima da janela
+Transform
+{
+	translation	-1.325 1.05 5.25
+	#rotation 0 0 1 3.14
+	children
+	[
+		Shape
+		{
+			appearance Appearance
+			{
+				material Material 
+				{
+					diffuseColor .671 .671 .682 
+					specularColor .49 .49 .49
+					emissiveColor .27 .3 .3
+					ambientIntensity 0
+					shininess .306
+				}
+			}
+			geometry Box { size 1.5 0.65 0.25 }
+		}
+	]
+}
+
+#PAREDE DA FRENTE pt Meio
+Transform
+{
+	translation	0.175 0 5.25
+	#rotation 0 0 1 3.14
+	children
+	[
+		Shape
+		{
+			appearance Appearance
+			{
+				material Material 
+				{
+					diffuseColor .671 .671 .682 
+					specularColor .49 .49 .49
+					emissiveColor .27 .3 .3
+					ambientIntensity 0
+					shininess .306
+				}
+			}
+			geometry Box { size 1.5 2.75 0.25 }
+		}
+	]
+}
+
+#PAREDE DA FRENTE pt Em cima da porta
+Transform
+{
+	translation	1.325 1.05 5.25
+	#rotation 0 0 1 3.14
+	children
+	[
+		Shape
+		{
+			appearance Appearance
+			{
+				material Material 
+				{
+					diffuseColor .671 .671 .682 
+					specularColor .49 .49 .49
+					emissiveColor .27 .3 .3
+					ambientIntensity 0
+					shininess .306
+				}
+			}
+			geometry Box { size 0.8 0.65 0.25 }
+		}
+	]
+}
+
+#PAREDE DA FRENTE pt Direita
+Transform
+{
+	translation	2.4 0 5.25
+	#rotation 0 0 1 3.14
+	children
+	[
+		Shape
+		{
+			appearance Appearance
+			{
+				material Material 
+				{
+					diffuseColor .671 .671 .682 
+					specularColor .49 .49 .49
+					emissiveColor .27 .3 .3
+					ambientIntensity 0
+					shininess .306
+				}
+			}
+			geometry Box { size 1.35 2.75 0.25 }
+		}
+	]
+}
+
+#----------------------------------------------------------------
+
+#PAREDE LATERAL DIREITA pt Esquesda
+Transform
+{
+	translation	2.95 0 4.5
+	#rotation 0 0 1 3.14
+	children
+	[
+		Shape
+		{
+			appearance Appearance
+			{
+				material Material 
+				{
+					diffuseColor .671 .671 .682 
+					specularColor .49 .49 .49
+					emissiveColor .27 .3 .3
+					ambientIntensity 0
+					shininess .306
+				}
+			}
+			geometry Box { size 0.25 2.75 1.25 }
+		}
+	]
+}
+
+#PAREDE LATERAL DIREITA pt embaixo da 1 janela
+Transform
+{
+	translation	2.95 -0.825 3.125
+	#rotation 0 0 1 3.14
+	children
+	[
+		Shape
+		{
+			appearance Appearance
+			{
+				material Material 
+				{
+					diffuseColor .671 .671 .682 
+					specularColor .49 .49 .49
+					emissiveColor .27 .3 .3
+					ambientIntensity 0
+					shininess .306
+				}
+			}
+			geometry Box { size 0.25 1.1 1.5 }
+		}
+	]
+}
+
+#PAREDE LATERAL DIREITA pt em cima da 1 janela
+Transform
+{
+	translation	2.95 1.05 3.125
+	#rotation 0 0 1 3.14
+	children
+	[
+		Shape
+		{
+			appearance Appearance
+			{
+				material Material 
+				{
+					diffuseColor .671 .671 .682 
+					specularColor .49 .49 .49
+					emissiveColor .27 .3 .3
+					ambientIntensity 0
+					shininess .306
+				}
+			}
+			geometry Box { size 0.25 0.65 1.5 }
+		}
+	]
+}
+
+#PAREDE LATERAL DIREITA pt parede entre janela 1 e janela 2
+Transform
+{
+	translation	2.95 0 1.625
+	#rotation 0 0 1 3.14
+	children
+	[
+		Shape
+		{
+			appearance Appearance
+			{
+				material Material 
+				{
+					diffuseColor .671 .671 .682 
+					specularColor .49 .49 .49
+					emissiveColor .27 .3 .3
+					ambientIntensity 0
+					shininess .306
+				}
+			}
+			geometry Box { size 0.25 2.75 1.5 }
+		}
+	]
+}
+
+#PAREDE LATERAL DIREITA pt embaixo da 2 janela
+Transform
+{
+	translation	2.95 -0.825 0.125
+	#rotation 0 0 1 3.14
+	children
+	[
+		Shape
+		{
+			appearance Appearance
+			{
+				material Material 
+				{
+					diffuseColor .671 .671 .682 
+					specularColor .49 .49 .49
+					emissiveColor .27 .3 .3
+					ambientIntensity 0
+					shininess .306
+				}
+			}
+			geometry Box { size 0.25 1.1 1.5 }
+		}
+	]
+}
+
+#PAREDE LATERAL DIREITA pt em cima da 2 janela
+Transform
+{
+	translation	2.95 1.05 0.125
+	#rotation 0 0 1 3.14
+	children
+	[
+		Shape
+		{
+			appearance Appearance
+			{
+				material Material 
+				{
+					diffuseColor .671 .671 .682 
+					specularColor .49 .49 .49
+					emissiveColor .27 .3 .3
+					ambientIntensity 0
+					shininess .306
+				}
+			}
+			geometry Box { size 0.25 0.65 1.5 }
+		}
+	]
+}
+
+#PAREDE LATERAL DIREITA pt parede entre janela 2 e janela 3
+Transform
+{
+	translation	2.95 0 -1.375
+	#rotation 0 0 1 3.14
+	children
+	[
+		Shape
+		{
+			appearance Appearance
+			{
+				material Material 
+				{
+					diffuseColor .671 .671 .682 
+					specularColor .49 .49 .49
+					emissiveColor .27 .3 .3
+					ambientIntensity 0
+					shininess .306
+				}
+			}
+			geometry Box { size 0.25 2.75 1.5 }
+		}
+	]
+}
+
+#PAREDE LATERAL DIREITA pt embaixo da 3 janela
+Transform
+{
+	translation	2.95 -0.825 -2.875
+	#rotation 0 0 1 3.14
+	children
+	[
+		Shape
+		{
+			appearance Appearance
+			{
+				material Material 
+				{
+					diffuseColor .671 .671 .682 
+					specularColor .49 .49 .49
+					emissiveColor .27 .3 .3
+					ambientIntensity 0
+					shininess .306
+				}
+			}
+			geometry Box { size 0.25 1.1 1.5 }
+		}
+	]
+}
+
+#PAREDE LATERAL DIREITA pt em cima da 3 janela
+Transform
+{
+	translation	2.95 1.05 -2.875
+	#rotation 0 0 1 3.14
+	children
+	[
+		Shape
+		{
+			appearance Appearance
+			{
+				material Material 
+				{
+					diffuseColor .671 .671 .682 
+					specularColor .49 .49 .49
+					emissiveColor .27 .3 .3
+					ambientIntensity 0
+					shininess .306
+				}
+			}
+			geometry Box { size 0.25 0.65 1.5 }
+		}
+	]
+}
+
+#PAREDE LATERAL DIREITA pt Direita
+Transform
+{
+	translation	2.95 0 -4.375
+	#rotation 0 0 1 3.14
+	children
+	[
+		Shape
+		{
+			appearance Appearance
+			{
+				material Material 
+				{
+					diffuseColor .671 .671 .682 
+					specularColor .49 .49 .49
+					emissiveColor .27 .3 .3
+					ambientIntensity 0
+					shininess .306
+				}
+			}
+			geometry Box { size 0.25 2.75 1.5 }
+		}
+	]
+}
+
+
+
+#-----------------------------------------------------------------
+
+
+#PAREDE LATERAL ESQUERDA pt Direita
+Transform
+{
+	translation	-2.95 0 3.525
+	#rotation 0 0 1 3.14
+	children
+	[
+		Shape
+		{
+			appearance Appearance
+			{
+				material Material 
+				{
+					diffuseColor .671 .671 .682 
+					specularColor .49 .49 .49
+					emissiveColor .27 .3 .3
+					ambientIntensity 0
+					shininess .306
+				}
+			}
+			geometry Box { size 0.25 2.75 3.2 }
+		}
+	]
+}
+
+#PAREDE LATERAL ESQUERDA pt embaixo 1 janela
+Transform
+{
+	translation	-2.95 -0.825 1.175
+	#rotation 0 0 1 3.14
+	children
+	[
+		Shape
+		{
+			appearance Appearance
+			{
+				material Material 
+				{
+					diffuseColor .671 .671 .682 
+					specularColor .49 .49 .49
+					emissiveColor .27 .3 .3
+					ambientIntensity 0
+					shininess .306
+				}
+			}
+			geometry Box { size 0.25 1.1 1.5 }
+		}
+	]
+}
+
+#PAREDE LATERAL ESQUERDA pt em cima 1 janela
+Transform
+{
+	translation	-2.95 1.05 1.175
+	#rotation 0 0 1 3.14
+	children
+	[
+		Shape
+		{
+			appearance Appearance
+			{
+				material Material 
+				{
+					diffuseColor .671 .671 .682 
+					specularColor .49 .49 .49
+					emissiveColor .27 .3 .3
+					ambientIntensity 0
+					shininess .306
+				}
+			}
+			geometry Box { size 0.25 0.65 1.5 }
+		}
+	]
+}
+
+#PAREDE LATERAL ESQUERDA pt meio das janelas
+Transform
+{
+	translation	-2.95 0 -0.35
+	#rotation 0 0 1 3.14
+	children
+	[
+		Shape
+		{
+			appearance Appearance
+			{
+				material Material 
+				{
+					diffuseColor .671 .671 .682 
+					specularColor .49 .49 .49
+					emissiveColor .27 .3 .3
+					ambientIntensity 0
+					shininess .306
+				}
+			}
+			geometry Box { size 0.25 2.75 1.55 }
+		}
+	]
+}
+
+#PAREDE LATERAL ESQUERDA pt embaixo 2 janela
+Transform
+{
+	translation	-2.95 -0.575 -1.375
+	#rotation 0 0 1 3.14
+	children
+	[
+		Shape
+		{
+			appearance Appearance
+			{
+				material Material 
+				{
+					diffuseColor .671 .671 .682 
+					specularColor .49 .49 .49
+					emissiveColor .27 .3 .3
+					ambientIntensity 0
+					shininess .306
+				}
+			}
+			geometry Box { size 0.25 1.6 0.5 }
+		}
+	]
+}
+
+#PAREDE LATERAL ESQUERDA pt em cima 2 janela
+Transform
+{
+	translation	-2.95 1.05 -1.375
+	#rotation 0 0 1 3.14
+	children
+	[
+		Shape
+		{
+			appearance Appearance
+			{
+				material Material 
+				{
+					diffuseColor .671 .671 .682 
+					specularColor .49 .49 .49
+					emissiveColor .27 .3 .3
+					ambientIntensity 0
+					shininess .306
+				}
+			}
+			geometry Box { size 0.25 0.65 0.5 }
+		}
+	]
+}
+
+#PAREDE LATERAL ESQUERDA pt Esquerda
+Transform
+{
+	translation	-2.95 0 -3.375
+	#rotation 0 0 1 3.14
+	children
+	[
+		Shape
+		{
+			appearance Appearance
+			{
+				material Material 
+				{
+					diffuseColor .671 .671 .682 
+					specularColor .49 .49 .49
+					emissiveColor .27 .3 .3
+					ambientIntensity 0
+					shininess .306
+				}
+			}
+			geometry Box { size 0.25 2.75 3.5 }
+		}
+	]
+}
+
+#---------------------------------------------------------------
+
+#PAREDE DA TRAS pt Direita
+Transform
+{
+	translation	-2.45 0 -5.25
+	#rotation 0 0 1 3.14
+	children
+	[
+		Shape
+		{
+			appearance Appearance
+			{
+				material Material 
+				{
+					diffuseColor .671 .671 .682 
+					specularColor .49 .49 .49
+					emissiveColor .27 .3 .3
+					ambientIntensity 0
+					shininess .306
+				}
+			}
+			geometry Box { size 1.25 2.75 0.25 }
+		}
+	]
+}
+
+#PAREDE DA TRAS pt Embaixo da janela
+Transform
+{
+	translation	-1.075 -0.825 -5.25
+	#rotation 0 0 1 3.14
+	children
+	[
+		Shape
+		{
+			appearance Appearance
+			{
+				material Material 
+				{
+					diffuseColor .671 .671 .682 
+					specularColor .49 .49 .49
+					emissiveColor .27 .3 .3
+					ambientIntensity 0
+					shininess .306
+				}
+			}
+			geometry Box { size 1.5 1.1 0.25 }
+		}
+	]
+}
+
+#PAREDE DA TRAS pt Em cima da janela
+Transform
+{
+	translation	-1.075 1.05 -5.25
+	#rotation 0 0 1 3.14
+	children
+	[
+		Shape
+		{
+			appearance Appearance
+			{
+				material Material 
+				{
+					diffuseColor .671 .671 .682 
+					specularColor .49 .49 .49
+					emissiveColor .27 .3 .3
+					ambientIntensity 0
+					shininess .306
+				}
+			}
+			geometry Box { size 1.5 0.65 0.25 }
+		}
+	]
+}
+
+#PAREDE DA TRAS pt Esquerda
+Transform
+{
+	translation	1.375 0 -5.25
+	#rotation 0 0 1 3.14
+	children
+	[
+		Shape
+		{
+			appearance Appearance
+			{
+				material Material 
+				{
+					diffuseColor .671 .671 .682 
+					specularColor .49 .49 .49
+					emissiveColor .27 .3 .3
+					ambientIntensity 0
+					shininess .306
+				}
+			}
+			geometry Box { size 3.4 2.75 0.25 }
+		}
+	]
+}
+
+#------------------------------------------------------------
+
+#PAREDE SALAO-COZINHA pt Frente
+Transform
+{
+	translation	-1.950 0 2.35
+	#rotation 0 0 1 3.14
+	children
+	[
+		Shape
+		{
+			appearance Appearance
+			{
+				material Material 
+				{
+					diffuseColor .671 .671 .682 
+					specularColor .49 .49 .49
+					emissiveColor .27 .3 .3
+					ambientIntensity 0
+					shininess .306
+				}
+			}
+			geometry Box { size 1.75 2.75 0.25 }
+		}
+	]
+}
+
+#PAREDE COZINHA-BANHO pt Frente
+Transform
+{
+	translation	-1.950 0 -0.5
+	#rotation 0 0 1 3.14
+	children
+	[
+		Shape
+		{
+			appearance Appearance
+			{
+				material Material 
+				{
+					diffuseColor .671 .671 .682 
+					specularColor .49 .49 .49
+					emissiveColor .27 .3 .3
+					ambientIntensity 0
+					shininess .306
+				}
+			}
+			geometry Box { size 1.75 2.75 0.25 }
+		}
+	]
+}
+
+#PAREDE BANHO-QUARTO2 pt Frente
+Transform
+{
+	translation	-1.7 0 -3
+	#rotation 0 0 1 3.14
+	children
+	[
+		Shape
+		{
+			appearance Appearance
+			{
+				material Material 
+				{
+					diffuseColor .671 .671 .682 
+					specularColor .49 .49 .49
+					emissiveColor .27 .3 .3
+					ambientIntensity 0
+					shininess .306
+				}
+			}
+			geometry Box { size 2.25 2.75 0.25 }
+		}
+	]
+}
+
+#PAREDE SALAO-QUARTO1 pt Frente
+Transform
+{
+	translation	1.775 0 1.2
+	#rotation 0 0 1 3.14
+	children
+	[
+		Shape
+		{
+			appearance Appearance
+			{
+				material Material 
+				{
+					diffuseColor .671 .671 .682 
+					specularColor .49 .49 .49
+					emissiveColor .27 .3 .3
+					ambientIntensity 0
+					shininess .306
+				}
+			}
+			geometry Box { size 2.1 2.75 0.25 }
+		}
+	]
+}
+
+#PAREDE QUARTO1-QUARTO2 pt Frente
+Transform
+{
+	translation	1.775 0 -1.65
+	#rotation 0 0 1 3.14
+	children
+	[
+		Shape
+		{
+			appearance Appearance
+			{
+				material Material 
+				{
+					diffuseColor .671 .671 .682 
+					specularColor .49 .49 .49
+					emissiveColor .27 .3 .3
+					ambientIntensity 0
+					shininess .306
+				}
+			}
+			geometry Box { size 2.1 2.75 0.25 }
+		}
+	]
+}
+
+#PAREDE COZINHA-CORREDOR pt Frente
+Transform
+{
+	translation	-0.95 0 1.575
+	#rotation 0 0 1 3.14
+	children
+	[
+		Shape
+		{
+			appearance Appearance
+			{
+				material Material 
+				{
+					diffuseColor .671 .671 .682 
+					specularColor .49 .49 .49
+					emissiveColor .27 .3 .3
+					ambientIntensity 0
+					shininess .306
+				}
+			}
+			geometry Box { size 0.25 2.75 1.8 }
+		}
+	]
+}
+
+#PAREDE COZINHA-CORREDOR pt em cima da porta
+Transform
+{
+	translation	-0.95 1.05 0.275
+	#rotation 0 0 1 3.14
+	children
+	[
+		Shape
+		{
+			appearance Appearance
+			{
+				material Material 
+				{
+					diffuseColor .671 .671 .682 
+					specularColor .49 .49 .49
+					emissiveColor .27 .3 .3
+					ambientIntensity 0
+					shininess .306
+				}
+			}
+			geometry Box { size 0.25 0.65 0.8 }
+		}
+	]
+}
+
+#PAREDE COZINHA/BANHO-CORREDOR pt Frente
+Transform
+{
+	translation	-0.95 0 -0.525
+	#rotation 0 0 1 3.14
+	children
+	[
+		Shape
+		{
+			appearance Appearance
+			{
+				material Material 
+				{
+					diffuseColor .671 .671 .682 
+					specularColor .49 .49 .49
+					emissiveColor .27 .3 .3
+					ambientIntensity 0
+					shininess .306
+				}
+			}
+			geometry Box { size 0.25 2.75 0.8 }
+		}
+	]
+}
+
+#PAREDE BANHO-CORREDOR pt em cima da porta
+Transform
+{
+	translation	-0.95 1.05 -1.325
+	#rotation 0 0 1 3.14
+	children
+	[
+		Shape
+		{
+			appearance Appearance
+			{
+				material Material 
+				{
+					diffuseColor .671 .671 .682 
+					specularColor .49 .49 .49
+					emissiveColor .27 .3 .3
+					ambientIntensity 0
+					shininess .306
+				}
+			}
+			geometry Box { size 0.25 0.65 0.8 }
+		}
+	]
+}
+
+#PAREDE BANHO-CORREDOR pt Frente
+Transform
+{
+	translation	-0.95 0 -2.3
+	#rotation 0 0 1 3.14
+	children
+	[
+		Shape
+		{
+			appearance Appearance
+			{
+				material Material 
+				{
+					diffuseColor .671 .671 .682 
+					specularColor .49 .49 .49
+					emissiveColor .27 .3 .3
+					ambientIntensity 0
+					shininess .306
+				}
+			}
+			geometry Box { size 0.25 2.75 1.15 }
+		}
+	]
+}
+
+#PAREDE QUARTO2-CORREDOR pt em cima da porta
+Transform
+{
+	translation	-0.175 1.05 -3
+	#rotation 0 0 1 3.14
+	children
+	[
+		Shape
+		{
+			appearance Appearance
+			{
+				material Material 
+				{
+					diffuseColor .671 .671 .682 
+					specularColor .49 .49 .49
+					emissiveColor .27 .3 .3
+					ambientIntensity 0
+					shininess .306
+				}
+			}
+			geometry Box { size 0.8 0.65 0.25 }
+		}
+	]
+}
+
+#PAREDE QUARTO2-QUARTO1/CORREDOR pt Direita da porta
+Transform
+{
+	translation	0.475 0 -3
+	#rotation 0 0 1 3.14
+	children
+	[
+		Shape
+		{
+			appearance Appearance
+			{
+				material Material 
+				{
+					diffuseColor .671 .671 .682 
+					specularColor .49 .49 .49
+					emissiveColor .27 .3 .3
+					ambientIntensity 0
+					shininess .306
+				}
+			}
+			geometry Box { size 0.5 2.75 0.25 }
+		}
+	]
+}
+
+#PAREDE QUARTO2-QUARTO1 pt Direita
+Transform
+{
+	translation	0.6 0 -1.975
+	#rotation 0 0 1 3.14
+	children
+	[
+		Shape
+		{
+			appearance Appearance
+			{
+				material Material 
+				{
+					diffuseColor .671 .671 .682 
+					specularColor .49 .49 .49
+					emissiveColor .27 .3 .3
+					ambientIntensity 0
+					shininess .306
+				}
+			}
+			geometry Box { size 0.25 2.75 1.8 }
+		}
+	]
+}
+
+#PAREDE QUARTO2-CORREDOR pt em cima da porta
+Transform
+{
+	translation	0.6 1.05 -0.675
+	#rotation 0 0 1 3.14
+	children
+	[
+		Shape
+		{
+			appearance Appearance
+			{
+				material Material 
+				{
+					diffuseColor .671 .671 .682 
+					specularColor .49 .49 .49
+					emissiveColor .27 .3 .3
+					ambientIntensity 0
+					shininess .306
+				}
+			}
+			geometry Box { size 0.25 0.65 0.8 }
+		}
+	]
+}
+
+#PAREDE QUARTO1 pt Direita
+Transform
+{
+	translation	0.6 0 0.525
+	#rotation 0 0 1 3.14
+	children
+	[
+		Shape
+		{
+			appearance Appearance
+			{
+				material Material 
+				{
+					diffuseColor .671 .671 .682 
+					specularColor .49 .49 .49
+					emissiveColor .27 .3 .3
+					ambientIntensity 0
+					shininess .306
+				}
+			}
+			geometry Box { size 0.25 2.75 1.6 }
+		}
+	]
+}
+
+#------------------------------------------------------------
+
+SpotLight
+{
+	location -2.8 1.225 2.75 #a luz estará a 4 unidades do eixo X
+	color 1 1 0
+	direction 0 -1 0	#a direção é o x positivo
+}
+
+#SPOT DA SALA pt direita em cima da mesa
+Transform
+{				 #-2.95 0 3.525
+	translation	 -2.8 1.225 2.75 
+	rotation 0 0 1 0.5235
+	children
+	[
+		Shape
+		{
+			appearance Appearance
+			{
+				material Material 
+				{
+					diffuseColor 0 0 0 
+				}
+			}
+			geometry Cylinder { radius 0.05 height 0.15 }
+		}
+	]
+}
+
+SpotLight
+{
+	location -2.8 1.225 4.8 #a luz estará a 4 unidades do eixo X
+	color 1 1 0
+	direction 0 -1 0	#a direção é o x positivo
+}
+
+#SPOT DA SALA pt esquerda em cima da mesa
+Transform
+{				 #-2.95 0 3.525
+	translation	 -2.8 1.225 4.8 
+	rotation 0 0 1 0.5235
+	children
+	[
+		Shape
+		{
+			appearance Appearance
+			{
+				material Material 
+				{
+					diffuseColor 0 0 0 
+				}
+			}
+			geometry Cylinder { radius 0.05 height 0.15 }
+		}
+	]
+}

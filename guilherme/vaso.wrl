@@ -1,0 +1,108 @@
+#VRML V2.0 utf8
+
+
+
+	Transform
+	{
+		scale 0.5 0.5 0.5
+		translation -2.4 -0.53 2.125
+		#rotation 0 0 1 3.14
+		children
+		[
+
+				Transform
+	{
+		scale 1 0.7 1
+		children
+		[
+        	Shape {
+            	appearance Appearance {
+                	material Material {
+                    	diffuseColor 0 .5 0
+						transparency .68
+						specularColor .31 .77 .8
+						ambientIntensity 0
+						shininess .03
+						emissiveColor 0 .08 .26
+                	}
+            	}
+            	geometry Extrusion {
+                	creaseAngle 1.57
+                	endCap FALSE
+                	solid  FALSE
+                	crossSection [
+                	# Circle
+                    	 1.00  0.00,   0.92 -0.38,
+                    	 0.71 -0.71,   0.38 -0.92,
+                    	 0.00 -1.00,  -0.38 -0.92,
+                    	-0.71 -0.71,  -0.92 -0.38,
+                    	-1.00 -0.00,  -0.92  0.38,
+                    	-0.71  0.71,  -0.38  0.92,
+                    	 0.00  1.00,   0.38  0.92,
+                    	 0.71  0.71,   0.92  0.38,
+                    	 1.00  0.00
+                	]
+                	spine [
+                	# Straight-line
+                    	0.0 0.0 0.0,  0.0 0.4 0.0,
+                    	0.0 0.8 0.0,  0.0 1.2 0.0,
+                    	0.0 1.6 0.0,  0.0 2.0 0.0,
+                    	0.0 2.4 0.0,  0.0 2.8 0.0,
+                    	0.0 3.2 0.0,  0.0 3.6 0.0,
+                    	0.0 4.0 0.0
+                	]
+                	scale [
+                    	1.8  1.8,  1.95 1.95,
+                    	2.0  2.0,  1.95 1.95
+                    	1.8  1.8,  1.5  1.5
+                    	1.2  1.2,  1.05 1.05,
+                    	1.0  1.0,  1.05  1.05,
+                    	1.15 1.15,
+                	]
+            	}
+
+		
+			}
+		]
+	}
+
+			Transform {
+						translation	0 3.7 3
+						scale 5 5 5 
+						children [
+							Inline {	
+								url	"flower.wrl"
+							}
+						]
+					}
+
+
+
+			Transform {
+						translation	3 3.7 -0.5
+						rotation 0 0.2 0 1.8
+						scale 5 5 5 
+						children [
+							Inline {	
+								url	"flower.wrl"
+							}
+						]
+					}
+
+
+			Transform {
+						translation	-0.95 3.7 -2.5
+						rotation 0 1 0 3.5
+						scale 5 5 5 
+						children [
+							Inline {	
+								url	"flower.wrl"
+							}
+						]
+					}
+
+
+
+				]
+			}
+	 

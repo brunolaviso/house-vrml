@@ -1,0 +1,831 @@
+#VRML V2.0 utf8
+
+#CHAO
+Transform
+{
+	translation	0 -1.5 0
+	#rotation 0 0 1 3.14
+	children
+	[
+		Shape
+		{
+			appearance Appearance
+			{
+				material Material { diffuseColor 1 0 0 }
+			}
+			geometry Box { size 6.15 0.25 10.75 }
+		}
+	]
+}
+   
+#-----------------------------------------------------------------
+
+
+#PAREDE LATERAL ESQUERDA pt Direita
+Transform
+{
+	translation	-2.95 0 3.525
+	#rotation 0 0 1 3.14
+	children
+	[
+		Shape
+		{
+			appearance Appearance
+			{
+				material Material { diffuseColor 0 0 1 }
+			}
+			geometry Box { size 0.25 2.75 3.2 }
+		}
+	]
+}
+
+#PAREDE LATERAL ESQUERDA pt embaixo 1 janela
+Transform
+{
+	translation	-2.95 -0.825 1.175
+	#rotation 0 0 1 3.14
+	children
+	[
+		Shape
+		{
+			appearance Appearance
+			{
+				material Material { diffuseColor 0 0 1 }
+			}
+			geometry Box { size 0.25 1.1 1.5 }
+		}
+	]
+}
+
+#PAREDE LATERAL ESQUERDA pt em cima 1 janela
+Transform
+{
+	translation	-2.95 1.05 1.175
+	#rotation 0 0 1 3.14
+	children
+	[
+		Shape
+		{
+			appearance Appearance
+			{
+				material Material { diffuseColor 0 0 1 }
+			}
+			geometry Box { size 0.25 0.65 1.5 }
+		}
+	]
+}
+
+#PAREDE LATERAL ESQUERDA pt meio das janelas
+Transform
+{
+	translation	-2.95 0 -0.35
+	#rotation 0 0 1 3.14
+	children
+	[
+		Shape
+		{
+			appearance Appearance
+			{
+				material Material { diffuseColor 0 0 1 }
+			}
+			geometry Box { size 0.25 2.75 1.55 }
+		}
+	]
+}
+
+#PAREDE LATERAL ESQUERDA pt embaixo 2 janela
+Transform
+{
+	translation	-2.95 -0.575 -1.375
+	#rotation 0 0 1 3.14
+	children
+	[
+		Shape
+		{
+			appearance Appearance
+			{
+				material Material { diffuseColor 0 0 1 }
+			}
+			geometry Box { size 0.25 1.6 0.5 }
+		}
+	]
+}
+
+#PAREDE LATERAL ESQUERDA pt em cima 2 janela
+Transform
+{
+	translation	-2.95 1.05 -1.375
+	#rotation 0 0 1 3.14
+	children
+	[
+		Shape
+		{
+			appearance Appearance
+			{
+				material Material { diffuseColor 0 0 1 }
+			}
+			geometry Box { size 0.25 0.65 0.5 }
+		}
+	]
+}
+
+#PAREDE LATERAL ESQUERDA pt Esquerda
+Transform
+{
+	translation	-2.95 0 -3.375
+	#rotation 0 0 1 3.14
+	children
+	[
+		Shape
+		{
+			appearance Appearance
+			{
+				material Material { diffuseColor 0 0 1 }
+			}
+			geometry Box { size 0.25 2.75 3.5 }
+		}
+	]
+}
+
+#---------------------------------------------------------------
+#------------------------------------------------------------
+
+#PAREDE SALAO-COZINHA pt Frente_________________________________AZUL FRENTE
+Transform
+{
+	translation	-1.950 -1 2.35
+	#rotation 0 0 1 3.14
+	children
+	[
+		Shape
+		{
+			appearance Appearance
+			{
+				material Material { diffuseColor 0 0 1 }
+			}
+			geometry Box { size 1.75 0.75 0.25 }
+		}
+	]
+}
+
+#PAREDE COZINHA-BANHO pt Frente ________________________________ROSA
+Transform
+{
+	translation	-1.950 -1 -0.5
+	#rotation 0 0 1 3.14
+	children
+	[
+		Shape
+		{
+			appearance Appearance
+			{
+				material Material { diffuseColor 1 0 1 }
+			}
+			geometry Box { size 1.75 1.5 0.25 }
+		}
+	]
+}
+ 
+#PAREDE COZINHA-CORREDOR pt Frente ______________________________VERDE CORREDOR
+Transform
+{
+	translation	-0.95 0 1.575
+	#rotation 0 0 1 3.14
+	children
+	[
+		Shape
+		{
+			appearance Appearance
+			{
+				material Material { diffuseColor 0 0.5 0 }	
+			}
+			geometry Box { size 0.25 2.75 1.8 }
+		}
+	]
+}
+
+#PAREDE COZINHA-CORREDOR pt em cima da porta
+Transform
+{
+	translation	-0.95 1.05 0.275
+	#rotation 0 0 1 3.14
+	children
+	[
+		Shape
+		{
+			appearance Appearance
+			{
+				material Material { diffuseColor 0 0 1 }
+			}
+			geometry Box { size 0.25 0.65 0.8 }
+		}
+	]
+}
+
+#PAREDE COZINHA/BANHO-CORREDOR pt Frente
+Transform
+{
+	translation	-0.95 0 -0.525
+	#rotation 0 0 1 3.14
+	children
+	[
+		Shape
+		{
+			appearance Appearance
+			{
+				material Material { diffuseColor 0 0 1 }
+			}
+			geometry Box { size 0.25 2.75 0.8 }
+		}
+	]
+}
+
+#PAREDE BANHO-CORREDOR pt em cima da porta
+Transform
+{
+	translation	-0.95 1.05 -1.325
+	#rotation 0 0 1 3.14
+	children
+	[
+		Shape
+		{
+			appearance Appearance
+			{
+				material Material { diffuseColor 0 0 1 }
+			}
+			geometry Box { size 0.25 0.65 0.8 }
+		}
+	]
+}	
+
+
+
+
+# X  --- Esquerda ou direita 
+
+# Y  --- Cima ou Baixo
+
+# Z  --- Perto de mim ou Longe
+
+
+ 
+
+
+ Transform
+{
+	translation	-1.950 -1 2.125
+	#rotation 0 0 1 3.14
+	children
+	[
+		Shape
+		{
+			appearance Appearance {
+				texture	ImageTexture {
+					url	"Cimento queimado.jpg"
+				}
+			}
+			geometry Box { size 1.75 1 0.4 }
+		}  
+
+		
+	]
+}
+
+		# Vertical
+Transform
+{
+	translation -1.950 -1 2.125
+	#rotation 0 0 1 3.14
+	children
+	[
+		Shape
+		{
+			appearance Appearance
+			{
+				material Material { diffuseColor 0.8 0.8 0.8}
+			}
+			geometry Box { size 0.02 0.999 0.40002 }
+		}
+	]
+}
+
+			#Horizontal 		01
+Transform
+{
+	translation -1.950 -0.5 2.125
+	#rotation 0 0 1 3.14
+	children
+	[
+		Shape
+		{
+			appearance Appearance {
+			texture	ImageTexture {
+					url	"Armario.jpg"
+				}
+			}
+			geometry Box { size 1.7499 0.074 0.41 }
+		}
+	]
+}
+
+			#Horizontal 		02
+Transform
+{
+	translation -1.950 -0.8 2.125
+	#rotation 0 0 1 3.14
+	children			  
+	[
+		Shape
+		{
+			appearance Appearance 	{
+				material Material { diffuseColor 0.8 0.8 0.8}
+			}
+			geometry Box { size 1.7499 0.008 0.40002 }
+		}
+	]
+}
+
+Transform
+{
+	translation -1.950 -1.1 2.125
+	#rotation 0 0 1 3.14
+	children			  
+	[
+		Shape
+		{
+			appearance Appearance 	{
+				material Material { diffuseColor 0.8 0.8 0.8}
+			}
+			geometry Box { size 1.7499 0.008 0.40002 }
+		}
+	]
+}
+
+ Transform
+{
+	translation -1.950 -1.1 2.125
+	#rotation 0 0 1 3.14
+	children			  
+	[
+		Shape
+		{
+			appearance Appearance 	{
+				material Material { diffuseColor 0.8 0.8 0.8}
+			}
+			geometry Box { size 0.3 0.008 0.40002 }
+		}
+	]
+}
+
+
+
+	#	MESA DO MEIO
+#MESA DO MEIO HORIZONTAL
+Transform
+{
+	translation -1.550 -0.5 1.125
+	#rotation 0 0 1 3.14
+	children
+	[
+		Shape
+		{
+			appearance Appearance {
+			texture	ImageTexture {
+					url	"Armario.jpg"
+				}
+			}
+			geometry Box { size 1.2 0.06 0.4 }
+		}
+	]
+}
+
+#MESA DO MEIO VERTICAL
+Transform
+{
+	translation -2.12 -1 1.125
+	#rotation 0 0 1 3.14
+	children
+	[
+		Shape
+		{
+			appearance Appearance {
+			texture	ImageTexture {
+					url	"Armario.jpg"
+				}
+			}
+			geometry Box { size 0.06 0.9 0.4 }
+		}
+	]
+}
+
+
+# ARMARIO SUPERIOR
+
+Transform
+{
+	translation	-1.950 0.6 2.125
+	#rotation 0 0 1 3.14
+	children
+	[
+		Shape
+		{
+			appearance Appearance {
+				texture	ImageTexture {
+					url	"Armario.jpg"
+				}
+			}
+			geometry Box { size 1.75 0.6 0.4 }
+		}  
+
+		
+	]
+}
+
+
+
+
+Transform
+{
+	translation	-1.950 0.6 2.125
+	#rotation 0 0 1 3.14
+	children
+	[
+		Shape
+		{
+			appearance Appearance {
+				texture	ImageTexture {
+					url	"Armario.jpg"
+				}
+			}
+			geometry Box { size 1.75 0.6 0.4 }
+		}  
+			Transform
+			{
+				translation 0 0 -0.01
+				#rotation 0 0 1 3.14
+				children
+				[
+					Shape
+					{
+						appearance Appearance
+						{
+							material Material { diffuseColor 0.8 0.8 0.8}
+						}
+						geometry Box { size 0.02 0.59 0.40002 }
+					}
+
+				]
+			}
+
+
+			   Transform
+			{
+				translation 0.45 0 -0.01
+				#rotation 0 0 1 3.14
+				children
+				[
+					Shape
+					{
+						appearance Appearance
+						{
+							material Material { diffuseColor 0.8 0.8 0.8}
+						}
+						geometry Box { size 0.02 0.59 0.40002 }
+					}
+
+				]
+			}
+
+
+
+		   Transform
+			{
+				translation -0.45 0 -0.01
+				#rotation 0 0 1 3.14
+				children
+				[
+					Shape
+					{
+						appearance Appearance
+						{
+							material Material { diffuseColor 0.8 0.8 0.8}
+						}
+						geometry Box { size 0.02 0.59 0.40002 }
+					}
+
+				]
+			}
+
+
+			#_____________________________________________________ 
+
+
+
+
+		   Transform
+			{
+				translation 0.5 -0.2 -0.21
+				#rotation 0 0 1 3.14
+				children
+				[
+				Shape {
+						appearance Appearance {
+							material Material {
+								diffuseColor 1.05 1.05 1.05
+                					}
+						}
+						geometry Sphere {
+							radius	0.02
+						}
+					}
+				]
+			}
+
+
+			  Transform
+			{
+				translation -0.5 -0.2 -0.21
+				#rotation 0 0 1 3.14
+				children
+				[
+				Shape {
+						appearance Appearance {
+							material Material {
+								diffuseColor 1.05 1.05 1.05
+                					}
+						}
+						geometry Sphere {
+							radius	0.02
+						}
+					}
+				]
+			}
+
+
+					  Transform
+			{
+				translation -0.4 -0.2 -0.21
+				#rotation 0 0 1 3.14
+				children
+				[
+				Shape {
+						appearance Appearance {
+							material Material {
+								diffuseColor 1.05 1.05 1.05
+                					}
+						}
+						geometry Sphere {
+							radius	0.02
+						}
+					}
+				]
+			}
+
+
+					  Transform
+			{
+				translation 0.4 -0.2 -0.21
+				#rotation 0 0 1 3.14
+				children
+				[
+				Shape {
+						appearance Appearance {
+							material Material {
+								diffuseColor 1.05 1.05 1.05
+                					}
+						}
+						geometry Sphere {
+							radius	0.02
+						}
+					}
+				]
+			}
+
+	]
+}
+
+ #	______________________________ FOGÃO
+
+Transform
+{
+	translation -1.550 -0.45 2.125
+	#rotation 0 0 1 3.14
+	children
+	[
+
+		
+		DEF BocaFogao Group	{children [
+
+			Transform {translation 0 0.001 0.0875
+			children  [
+			Shape {
+					appearance Appearance {
+						material Material {
+							diffuseColor 0.8 0.8 0.8
+                				}
+					}
+					geometry Cylinder {
+						radius	0.05
+						height	0.015
+						side	TRUE
+						top 	TRUE
+						bottom	TRUE
+						}
+					}
+				]}
+		]}
+
+		# base do FOGÃO
+		Shape
+		{
+			appearance Appearance {	
+						material Material {
+							diffuseColor 0 0 0
+                					}
+			}
+			geometry Box { size 0.55 0.004 0.355 }
+		}
+		
+		
+		Transform {translation 0 0 -0.175
+						children  USE BocaFogao}
+			
+
+		Transform {translation 0.175 0 -0.175
+						children  USE BocaFogao}
+			
+		Transform {translation -0.175 0 -0.175
+						children  USE BocaFogao}
+
+
+		Transform {translation -0.175 0 0
+						children  USE BocaFogao}
+		 		 
+		Transform {translation 0.175 0 0
+						children  USE BocaFogao}
+
+	]
+}
+
+	#__________QUADROS NA PAREDE
+
+
+	Transform
+	{
+		translation	-1.950 0.25 -0.35
+		#rotation 0 0 1 3.14
+		children
+		[
+			Shape
+			{
+				appearance Appearance
+				{
+					material Material { diffuseColor 0 0 0 }
+				}
+				geometry Box { size .3 .35 0.02 }
+			}
+
+		   	Transform  				{
+				translation	0 0 0.01
+
+				children
+				[
+				Shape
+			{
+				appearance Appearance
+				{  		texture	ImageTexture {
+					url	"Quadro03.jpg"}
+				}
+				geometry Box { size .22 .28 0.0105 }
+			}
+		]}
+		]
+	}
+
+
+	Transform
+	{
+		translation	-2.350 0.155 -0.35
+		#rotation 0 0 1 3.14
+		children
+		[
+			Shape
+			{
+				appearance Appearance
+				{
+					material Material { diffuseColor 0 0 0 }
+				}
+				geometry Box { size .3 .35 0.02 }
+			}
+
+			   	Transform  				{
+				translation	0 0 0.01
+
+				children
+				[
+					Shape
+			{
+				appearance Appearance
+				{  		texture	ImageTexture {
+					url	"Quadro01.jpg"}
+				}
+				geometry Box { size .22 .28 0.0105 }
+			}
+		]}
+		] 
+	
+	}
+
+	Transform
+	{
+		translation	-1.550 0.155 -0.35
+		#rotation 0 0 1 3.14
+		children
+		[
+			Shape
+			{
+				appearance Appearance
+				{
+					material Material { diffuseColor 0 0 0 }
+				}
+				geometry Box { size .3 .35 0.02 }
+			}
+
+
+
+				Transform  				{
+				translation	0 0 0.01
+
+				children
+				[
+				Shape
+			{
+				appearance Appearance
+				{  		texture	ImageTexture {
+					url	"Quadro02.png"}
+				}
+				geometry Box { size .22 .28 0.0105 }
+			}
+
+		]}
+		]
+	}											 
+
+
+
+	#PIA
+
+	Transform
+	{
+	translation -2.4 -0.53 2.125
+	#rotation 0 0 1 3.14
+	children
+	[
+	Shape {
+					appearance Appearance 
+				{  		texture	ImageTexture {
+					url	"Pia.png"}
+					}
+					geometry Cylinder {
+						radius	0.2
+						height	0.14
+						side	TRUE
+						top 	TRUE
+						bottom	TRUE
+						}
+					}
+		]}
+		
+
+
+	Transform
+	{
+	translation -2.4 -0.4 2.245
+	rotation 0 0.3 1 3.14
+	children
+	[
+		Shape
+			{
+				appearance Appearance	{
+					material Material { diffuseColor 0.5 0.5 0.5 }
+				}
+				geometry Box { size .05 .3 0.0155 }
+			}
+		]}
+
+
+	Transform {
+					translation	0 0 0
+					scale 5 5 5 
+					children [
+						Inline {	
+							url	"vaso.wrl"
+							}
+						]
+					}
+
+# X  --- Esquerda ou direita 
+
+# Y  --- Cima ou Baixo
+
+# Z  --- Perto de mim ou Longe

@@ -1,0 +1,58 @@
+#VRML V2.0 utf8
+
+#Cadeira Assento
+  Transform {
+	translation	0 0 0
+	children DEF cadeira 
+Shape {
+	appearance Appearance {
+		material Material {
+			diffuseColor	1 1 1}
+			texture	ImageTexture {url "Cadeiras.jpg"}
+
+			}
+			geometry Box {size 0.4 0.05 0.3}
+		}
+	}
+
+	Transform {
+	translation	0 0.12 -0.15
+	rotation 1 0 0 1.57
+	children USE cadeira
+}
+
+
+#Pé da Cadeira
+ Transform {
+	translation	-0.175 -0.15 -0.15
+	children DEF Pe_Cadeira
+Shape {
+	appearance Appearance {
+		material Material {
+			diffuseColor	1 1 1}
+			texture	ImageTexture {url "Cadeiras.jpg"}
+
+			}
+			geometry Box {size 0.05 0.3 0.05}
+		}
+	}
+
+
+	Transform {
+		translation	-0.175 -0.15 0.125
+		children USE Pe_Cadeira
+	}
+	Transform {
+		translation	0.175 -0.15 -0.15
+		children USE Pe_Cadeira
+	}
+
+	Transform {
+		translation	-0.175 -0.15 0.125
+		children USE Pe_Cadeira
+	}
+
+	Transform {
+		translation	0.175 -0.15 0.125
+		children USE Pe_Cadeira
+	}

@@ -1,0 +1,325 @@
+#VRML V2.0 utf8
+
+#PORTA DA FRENTE DA CASA (SALÃO)
+Transform{
+	translation	1.33 -0.32 5.25 
+	children [
+
+	Shape 
+	{  
+		appearance Appearance 
+		{  	
+			material Material{ diffuseColor 0.7 0.5 0.3 }
+			texture	ImageTexture { url "textura.jpg" }
+		}
+		geometry Box { size 0.8 2.10 0.10 }
+	}
+	]
+}
+
+#--------------------------------------------------------------
+
+#MAÇANETA PORTA PRINCIPAL
+
+Transform{
+	translation 1.1 -0.32 5.25 
+	children [
+
+	Shape {
+		appearance Appearance {
+			material Material {	diffuseColor 0.5 0.5 0.5 }
+		}
+		geometry Sphere { radius 0.09 }
+	}
+	]
+}
+
+#-------------------------------------------------------------
+
+#PORTA DO BANHEIRO
+Transform{
+	translation	-0.95 -0.32 -1.33 
+	children [
+
+	Shape { 
+	    
+		appearance Appearance { 
+			material Material{ diffuseColor 0.7 0.5 0.3 }
+			texture	ImageTexture { url "textura1.jpg" }
+		}
+		geometry Box { size 0.10 2.10 0.8 }
+	}
+	]
+}
+
+#--------------------------------------------------------------
+
+#MAÇANETA PORTA DO BANHEIRO
+
+Transform{
+	translation -0.95 -0.32 -1.1 
+	children [
+
+	Shape {
+		appearance Appearance {
+			material Material {	diffuseColor 0.5 0.5 0.5 }
+		}
+		geometry Sphere { radius 0.09 }
+	}
+	]
+}
+
+#-------------------------------------------------------------
+
+#PORTA DA COZINHA
+Transform{
+
+	translation	-0.95 -0.32 0.27 
+	children
+	[
+	Shape 
+	{  
+		appearance Appearance { 
+			material Material{ diffuseColor 0.7 0.5 0.0 }
+			texture	ImageTexture { url "textura1.jpg"}
+		}
+		geometry Box {size 0.10 2.10 0.8}  
+	}
+	]
+}
+
+#--------------------------------------------------------------
+
+#MAÇANETA PORTA DA COZINHA
+
+Transform{
+	translation -0.95 -0.32 0.47
+	children [
+
+	Shape {
+		appearance Appearance {
+			material Material {	diffuseColor 0.5 0.5 0.5 }
+		}
+		geometry Sphere { radius 0.09 }
+	}
+	]
+}
+
+#-------------------------------------------------------------
+
+#PORTA DO QUARTO MAIOR
+Transform{
+
+	translation	-0.17 -0.33 -3 
+	children [
+
+	Shape 
+	{  
+		appearance Appearance {  
+			material Material { diffuseColor 0.7 0.5 0.0 }
+			texture	ImageTexture { url "textura1.jpg" }
+		}
+		geometry Box { size 0.8 2.10 0.10 }  
+	}
+	]
+}
+
+#--------------------------------------------------------------
+
+#MAÇANETA PORTA DO QUARTO MAIOR
+
+Transform{
+	translation -0.37 -0.33 -3
+	children [
+
+	Shape {
+		appearance Appearance {
+			material Material {	diffuseColor 0.5 0.5 0.5 }
+		}
+		geometry Sphere { radius 0.09 }
+	}
+	]
+}
+
+#-------------------------------------------------------------
+
+#PORTA DO QUARTO MENOR
+Transform{
+
+	translation	0.6 -0.32 -0.676 
+	children [
+
+	Shape 
+	{  
+		appearance Appearance {  
+			material Material { diffuseColor 0.7 0.5 0.0 }
+			texture	ImageTexture { url "textura1.jpg" }
+		}
+		geometry Box {size 0.10 2.10 0.8}  
+	}
+	]
+}
+
+#--------------------------------------------------------------
+
+#MAÇANETA PORTA DO QUARTO MENOR
+
+Transform{
+	translation 0.6 -0.32 -0.476
+	children [
+
+	Shape {
+		appearance Appearance {
+			material Material {	diffuseColor 0.5 0.5 0.5 }
+		}
+		geometry Sphere { radius 0.09 }
+	}
+	]
+}
+
+#-------------------------------------------------------------
+
+#VIDRO 1
+Transform{
+
+	translation	-1.08 0.22 -5.25 
+	children [
+
+	Shape 
+	{  
+		appearance Appearance { 
+			material Material {
+				transparency 0.3 
+				diffuseColor  0 0.19 0.255 
+			}
+		}
+		geometry Box {size 1.506 1.01 0.03}  
+	}
+	]
+}
+
+#--------------------------------------------------------------
+
+#VIDRO 2
+Transform{
+
+	translation	-1.33 0.22 5.25 
+	children [
+
+	Shape 
+	{  
+		appearance Appearance {
+			material Material {
+				transparency 0.3
+				diffuseColor 0 0.19 0.255 
+			}
+		}
+		geometry Box {size 1.506 1.01 0.03}  
+	}
+	]
+}
+
+#--------------------------------------------------------------
+
+#VIDRO 3
+Transform{
+
+	translation	-2.95 0.22 1.18 
+	children [
+
+	Shape 
+	{  
+		appearance Appearance {  
+			material Material {
+				transparency 0.3
+				diffuseColor 0 0.19 0.255 
+			}
+		}
+		geometry Box {size 0.03 1.01 1.506}  
+	}
+	]
+}
+
+#--------------------------------------------------------------
+
+#VIDRO 4
+Transform{
+
+	translation	-2.95 0.48 -1.37
+	children [
+
+	Shape 
+	{  
+		appearance Appearance { 
+			material Material {
+				transparency 0.3
+				diffuseColor 0 0.19 0.255 
+			}
+		}
+		geometry Box {size 0.03 0.5 0.5}  
+	}
+]
+}
+
+#--------------------------------------------------------------
+
+#VIDRO 5
+Transform{
+
+	translation	2.95 0.22 3.12 
+	children [
+
+	Shape 
+	{  
+		appearance Appearance {  
+			material Material {
+				transparency 0.3
+				diffuseColor 0 0.19 0.255 
+			}
+		}
+		geometry Box {size 0.03 1.01 1.506}  
+	}
+	]
+}
+
+#--------------------------------------------------------------
+
+#VIDRO 6
+Transform{
+
+	translation	2.95 0.22 0.12 
+	children [
+
+	Shape 
+	{  
+		appearance Appearance {  
+			material Material {
+				transparency 0.3
+				diffuseColor 0 0.19 0.255 }
+		}
+		geometry Box {size 0.03 1.01 1.506}  
+	}
+	]
+}
+
+#--------------------------------------------------------------
+
+#VIDRO 7
+Transform{
+
+	translation	2.95 0.22 -2.88 
+	children [
+
+	Shape 
+	{  
+		appearance Appearance {  
+			material Material{
+				transparency 0.3
+				diffuseColor 0 0.19 0.255 }
+		}
+		geometry Box {size 0.03 1.01 1.506} 
+	}
+	]
+}
+
+#--------------------------------------------------------------

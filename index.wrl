@@ -1,0 +1,159 @@
+#VRML V2.0 utf8
+
+#TETO
+Shape {
+     appearance Appearance {
+          material Material {
+			  diffuseColor 0 0 .75
+			  specularColor 0 .84 .88
+			  ambientIntensity .0633
+			  shininess .06
+			  transparency .5
+		  }
+     }
+     geometry IndexedFaceSet {
+          coord Coordinate {
+              point [
+                  #coordenadas da piramide
+                 -3.075 1.375 -5.375, #VERTICE SUP ESQ
+				 -3.075 1.375 5.375, #VERTICE INF ESQ
+				 0 3 0, #VERTICE PONTA
+				 3.075 1.375 -5.375, #VERTICE SUP DIR
+				 3.075 1.375 5.375, #VERTICE INF DIR
+              ]
+          }
+          coordIndex [
+			#coordenados das faces
+			  4, 3, 2, 1  -1, 
+              0, 1, 2, -1, 
+              0, 2, 3, -1, 
+              0, 3, 4, -1,  
+              0, 4, 1, -1             
+         ]
+	}
+}
+
+#CARRO
+
+Transform {
+	translation 6 -1.37 0
+	rotation 0 1 0 1.57
+	scale 0.0075 0.0075 0.0075
+	children 
+	[
+		Inline { url"l200.wrl" }
+	]
+}
+
+
+
+DirectionalLight
+{
+	direction 0 -5 0
+	color 1 1 1
+}
+
+Background 
+{
+	skyColor 0 .6 .82 
+}
+
+Viewpoint 
+{
+	position 0 0 10
+	#orientation	0 1 0 1.5708
+	fieldOfView	1 #90 graus em radiano
+	description	"Em frente a casa"	
+}
+
+Viewpoint 
+{
+	position 2.5 0 3.5
+	orientation	0 1 0 1.5708
+	fieldOfView	1 #90 graus em radiano
+	description	"Olhando para a TV"	
+}
+
+Viewpoint 
+{
+	position -2 0 0
+	orientation	0 1 0 3.1415
+	fieldOfView	1 #90 graus em radiano
+	description	"Cozinha"	
+}
+
+Viewpoint 
+{
+	position -2 0 -1.5
+	orientation	0 1 0 1.5708
+	fieldOfView	1.3 #90 graus em radiano
+	description	"Banheiro"	
+}		
+
+Viewpoint 
+{
+	position 1 0 0
+	orientation	0 -1 0 1.5708
+	fieldOfView	1 #90 graus em radiano
+	description	"Quarto 1"	
+}
+
+Viewpoint 
+{
+	orientation	0 1 0 1.5708
+	position 0 0 -4.5
+	fieldOfView	1 #90 graus em radiano
+	description	"Quarto 2"	
+}
+
+
+
+#--------------------------------- BRUNO ------------------------------------
+
+Inline
+{
+ url"bruno/bruno.wrl"
+}
+
+#--------------------------------- THIAGO ------------------------------------
+
+Inline
+{
+ url"thiago/thiago.wrl"
+}
+
+
+# ----------------------------- VICTOR AUGUSTO -------------------------------
+
+Inline
+{
+ url"victor/victor.wrl"
+}
+
+# ------------------------------- ANA LAURA ----------------------------------
+
+Inline
+{
+ url"ana/ana.wrl"
+}
+
+# --------------------------------- LUCAS ----------------------------------
+
+Inline
+{
+ url"lucas/lucas.wrl"
+}
+
+# --------------------------------- SHIZUKA ----------------------------------
+
+Inline
+{
+ url"shizuka/shizuka.wrl"
+}
+
+# ------------------------------- GUILHERME ----------------------------------
+
+Inline
+{
+ url"guilherme/guilherme.wrl"
+}

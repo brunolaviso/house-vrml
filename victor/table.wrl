@@ -1,0 +1,88 @@
+#VRML V2.0 utf8
+Transform {
+    translation  0 0 0
+    rotation  0 0 0 0
+    scale  1 1 1
+    
+    children [
+        Transform {
+            children [
+                Shape {
+                    geometry Box {
+                        size 5 1.5 .15
+                    }
+                    appearance Appearance {
+                        texture ImageTexture {
+                            url "assets/texture/darkMDFWoodTexture.jpg"
+                            repeatS TRUE
+                            repeatT TRUE
+                        }
+                    }
+                }
+            ]
+        }
+
+        Transform {
+            translation 1.68 2.26 0
+            children [
+                Shape {
+                    geometry Box {
+                        size 1.65 3 .15
+                    }
+                    appearance Appearance {
+                        texture ImageTexture {
+                            url "assets/texture/darkMDFWoodTexture.jpg"
+                        }
+                    }
+                }
+            ]
+        }
+
+        Transform {
+            translation -2.5 0 -1.92
+            children [
+                Shape {
+                    geometry Box {
+                        size .05 1.5 2
+                    }
+                    appearance Appearance {
+                        texture ImageTexture {
+                            url "assets/texture/darkMetalicTexture.jpg"
+                        }
+                    }
+                }
+            ]
+        }
+        Transform {
+            translation -2.5 0 -.92
+            children [
+                Shape {
+                    geometry Box {
+                        size .05 1.5 2
+                    }
+                    appearance Appearance {
+                        texture ImageTexture {
+                            url "assets/texture/darkMetalicTexture.jpg"
+                        }
+                    }
+                }
+            ]
+        }
+
+        Transform {
+            translation 1.69 3.7 -.92
+            children [
+                Shape {
+                    geometry Box {
+                        size 1.65 .05 2
+                    }
+                    appearance Appearance {
+                        texture ImageTexture {
+                            url "assets/texture/darkMetalicTexture.jpg"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

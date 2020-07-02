@@ -1,0 +1,402 @@
+#VRML V2.0 utf8
+
+# PARTE DO VICTOR AUGUSTO
+
+######################
+# Quarto de Solteiro #
+######################
+
+# Cama
+Transform {
+    scale .3 .3 .3
+    translation 2 -1.11 .75
+    rotation 1 0 0 -1.57
+    children [
+        #Mattress
+        Shape {
+            geometry Box {
+                size 5 2 .25
+            }
+
+            appearance Appearance {
+                material Material {     
+                    ambientIntensity 1
+                    diffuseColor 245 245 245
+                    specularColor 1 1 1
+                    shininess 1
+                    emissiveColor 1 1 1
+                    transparency 0
+                }
+                texture ImageTexture {
+                    url "assets/texture/mattressTexture.jpg"
+                    repeatS TRUE
+                    repeatT TRUE
+                }
+                textureTransform TextureTransform {
+                    rotation 1.5
+                    scale 5 5
+                }
+            }               
+        }
+
+        Transform {
+            #header
+            translation 2.55 0 .25
+            children [
+                 Shape {
+                    geometry Box {
+                        size .2 2.2 2.25
+                    }
+                    appearance Appearance {
+                        material Material {
+                            
+                        }
+                        texture ImageTexture {
+                            url "assets/texture/darkMDFWoodTexture.jpg"
+                            repeatS TRUE
+                            repeatT TRUE
+                        }
+                        textureTransform TextureTransform {
+                            center 0 0
+                            rotation 0
+                            scale 0 0
+                            translation 0 0 
+                        }
+                    }
+                }
+            ]
+        }
+
+        Transform {
+            #Bottom Foot 
+            translation  -2.45 .95 -.45
+            children [
+                Shape {
+                    geometry Box {
+                        size .3 .2 .85
+                    }
+                    appearance Appearance {
+                        texture ImageTexture {
+                            url "assets/texture/darkMDFWoodTexture.jpg"
+                            repeatS TRUE
+                            repeatT TRUE
+                        }
+                        textureTransform TextureTransform {
+                            center 0 0
+                            rotation 0
+                            scale 0 0
+                            translation 0 0
+                        }
+                    }
+                }
+            ]
+        }
+        Transform {
+            #Upper Foot
+            translation -2.45 -.95 -.45
+            children [
+                Shape {
+                    geometry Box {
+                        size .3 .2 .85
+                    }
+                    appearance Appearance {
+                        texture ImageTexture {
+                            url "assets/texture/darkMDFWoodTexture.jpg"
+                            repeatS TRUE
+                            repeatT TRUE
+                        }
+                        textureTransform TextureTransform {
+                            center 0 0
+                            rotation 0
+                            scale 0 0
+                            translation 0 0
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
+
+# Mesa
+Transform {
+    translation  2.18 -.9 -.21
+    rotation  1 0 0 -1.57
+    scale  .25 .25 .25
+    children [
+        Transform {
+            translation 0 4.5 0
+            children [
+                Shape {
+                    geometry Box {
+                        size 5 1.5 .15
+                    }
+                    appearance Appearance {
+                        texture ImageTexture {
+                            url "assets/texture/darkMDFWoodTexture.jpg"
+                            repeatS TRUE
+                            repeatT TRUE
+                        }
+                    }
+                }
+            ]
+        }
+
+        Transform {
+            translation 1.68 2.26 0
+            children [
+                Shape {
+                    geometry Box {
+                        size 1.65 3 .15
+                    }
+                    appearance Appearance {
+                        texture ImageTexture {
+                            url "assets/texture/darkMDFWoodTexture.jpg"
+                        }
+                    }
+                }
+            ]
+        }
+
+        Transform {
+            translation -2.5 4.5 -.92
+            children [
+                Shape {
+                    geometry Box {
+                        size .05 1.5 2
+                    }
+                    appearance Appearance {
+                        texture ImageTexture {
+                            url "assets/texture/darkMetalicTexture.jpg"
+                        }
+                    }
+                }
+            ]
+        }
+		
+		#Lado proximo a cama
+        Transform {
+            translation 1.7 .75 -.92
+			rotation 0 0 1 1.57
+            children [
+                Shape {
+                    geometry Box {
+                        size .05 1.64 2
+                    }
+                    appearance Appearance {
+                        texture ImageTexture {
+                            url "assets/texture/darkMetalicTexture.jpg"
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
+
+###################
+# Quarto do Casal #
+###################
+
+# Cama Casal
+Transform {
+    scale .3 .3 .3
+    translation 1.75 -1.11 -3.05
+    rotation 1 0 0 -1.57
+    children [
+        #Mattress
+        Shape {
+            geometry Box {
+                size 5 8 .5
+            }
+
+            appearance Appearance {
+                material Material {     
+                    ambientIntensity 1
+                    diffuseColor 245 245 245
+                    specularColor 1 1 1
+                    shininess 1
+                    emissiveColor 1 1 1
+                    transparency 0
+                }
+                texture ImageTexture {
+                    url "assets/texture/mattressTexture.jpg"
+                    repeatS TRUE
+                    repeatT TRUE
+                }
+                textureTransform TextureTransform {
+                    rotation 1.5
+                    scale 5 5
+                }
+            }               
+        }
+
+        Transform {
+            #header
+            translation 0 -4.12 .25
+            children [
+                 Shape {
+                    geometry Box {
+                        size 5.2 .2 2.25
+                    }
+                    appearance Appearance {
+                        material Material {
+                            
+                        }
+                        texture ImageTexture {
+                            url "assets/texture/darkMDFWoodTexture.jpg"
+                            repeatS TRUE
+                            repeatT TRUE
+                        }
+                        textureTransform TextureTransform {
+                            center 0 0
+                            rotation 0
+                            scale 0 0
+                            translation 0 0 
+                        }
+                    }
+                }
+            ]
+        }
+
+        Transform {
+            #Bottom Foot 
+            translation  2.45 3.965 -.45
+            children [
+                Shape {
+                    geometry Box {
+                        size .3 .2 .8
+                    }
+                    appearance Appearance {
+                        texture ImageTexture {
+                            url "assets/texture/darkMDFWoodTexture.jpg"
+                            repeatS TRUE
+                            repeatT TRUE
+                        }
+                        textureTransform TextureTransform {
+                            center 0 0
+                            rotation 0
+                            scale 0 0
+                            translation 0 0
+                        }
+                    }
+                }
+            ]
+        }
+        Transform {
+            #Upper Foot
+            translation -2.45 3.965 -.45
+            children [
+                Shape {
+                    geometry Box {
+                        size .3 .2 .8
+                    }
+                    appearance Appearance {
+                        texture ImageTexture {
+                            url "assets/texture/darkMDFWoodTexture.jpg"
+                            repeatS TRUE
+                            repeatT TRUE
+                        }
+                        textureTransform TextureTransform {
+                            center 0 0
+                            rotation 0
+                            scale 0 0
+                            translation 0 0
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
+
+# Armário
+Transform {
+	translation -2.52 -0.02 -4.1
+	rotation 0 0 0 0
+	scale .3 .3 .3
+	children [
+		Transform {
+			children [
+				Shape {
+					geometry Box {
+						size 2 9 6
+					}
+					appearance Appearance {
+						texture ImageTexture {
+							url "assets/texture/whiteMDFWoodTexture.jpg"
+						}
+					}
+				}
+			]
+		}
+
+		Transform {
+			translation .98 0 1.35
+			children [
+				Shape {
+					geometry Box {
+						size .1 8 2.7
+					}
+					appearance Appearance {
+						texture ImageTexture {
+							url "assets/texture/whiteMDFWoodTexture.jpg"
+						}
+					}
+				}
+				Transform {
+					translation 0 0 -1
+					children [
+						Shape {
+							geometry Cylinder {
+								radius .08
+								height 3
+							}
+
+							appearance Appearance {
+								texture ImageTexture {
+									url "assets/texture/alumminiumBtushedTexture.jpg"
+								}
+							}
+						}
+					]
+				}
+			]
+		}
+
+		Transform {
+			translation .98 0 -1.35
+			children [
+				Shape {
+					geometry Box {
+						size .1 8 2.7
+					}
+					appearance Appearance {
+						texture ImageTexture {
+							url "assets/texture/whiteMDFWoodTexture.jpg"
+						}
+					}
+				}
+
+				Transform {
+					translation 0 0 1
+					children [
+						Shape {
+							geometry Cylinder {
+								radius .08
+								height 3
+							}
+
+							appearance Appearance {
+								texture ImageTexture {
+									url "assets/texture/alumminiumBtushedTexture.jpg"
+								}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}
+

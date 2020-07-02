@@ -1,0 +1,245 @@
+#VRML V2.0 utf8
+
+#PARTE DE FORA -- Shizuka
+
+#BASE (VERDE)
+Transform {
+	translation	-6 -1.385 0
+	children [
+Shape{
+	appearance Appearance {
+		material Material {
+			diffuseColor 0 1 0
+		}
+		texture	ImageTexture {url "Graminha.jpg"}
+	}
+	geometry Box { size	50 0.01 30}
+	}
+  ]
+}
+
+#BORDA DA BASE
+Transform {
+	translation	-6 -0.985 -7.5
+	children DEF chaoborda
+Shape{
+	appearance Appearance {
+		material Material {
+			diffuseColor 0 1 0
+		}
+		texture	ImageTexture {url "marmore.jpg"}
+	}
+	geometry Box { size	29.8 0.8 0.2}
+	}
+}
+
+
+
+#BORDA DE TRAS DA BASE 
+Transform {
+	translation	-11.99 -0.985 7.5
+	children [
+Shape{
+	appearance Appearance {
+		material Material {
+			diffuseColor 0 1 0
+		}
+		texture	ImageTexture {url "marmore.jpg"}
+	}
+	geometry Box { size	17.8 0.8 0.2}
+   }
+  ]
+}
+
+#BORDA LATERAL DIREITA DA BASE
+Transform {
+	translation	9 -0.985 0
+	children DEF bordalateral
+Shape{
+	appearance Appearance {
+		material Material {
+			diffuseColor 0 1 0
+		}
+		texture	ImageTexture {url "marmore.jpg"}
+	}
+	geometry Box { size	0.2 0.8 15}
+  }
+}
+
+#BORDA LATERAL ESQUERDA DA BASE
+Transform {
+	translation	-20.8 -0.985 0
+	children USE bordalateral
+}
+
+#__________________________________PARTE DO CHÃO MARROM______________________________________________________
+#CHÃO MARROM
+Transform {
+	translation	-11.8 -1.38 0	 #-6 -1.9 0
+	children [
+Shape{
+	appearance Appearance {
+		material Material {
+			diffuseColor 0 1 0
+		}
+		texture	ImageTexture {url "CChao.jpg"}
+	}
+	geometry Box { size	13 0.02 6.5}
+	}
+  ]
+}
+
+#_______________________________ BORDA DA PISCINA___________________________________________
+
+#BORDA DA PISCINA
+Transform {
+	translation	-11.8 -1.3 -2
+	children DEF borda
+Shape{
+	appearance Appearance {
+		material Material {
+			diffuseColor 0 1 0
+		}
+		texture	ImageTexture {url "marmore.jpg"}
+	}
+	geometry Box { size	9.1 0.2 0.2} 
+  }
+}
+
+#Borda da piscina direita
+Transform {
+	translation	-11.8 -1.4 -1.85
+	children DEF bordas_Piscina
+	Shape{
+	appearance Appearance {
+		material Material {
+			diffuseColor 0 1 0
+		}
+		texture	ImageTexture {url "marmore.jpg"}
+	}
+	geometry Box { size	4 0.2 0.2}	#largura da borda
+	}
+}
+
+#Borda piscina de cima -------
+Transform {
+	translation	-11.8 -1.3 2
+	children USE borda
+}
+
+#Borda piscina direita
+Transform {
+	translation	-7.35 -1.3 0
+	rotation 0 1 0 1.57
+	children USE bordas_Piscina
+}
+
+#Borda piscina
+Transform {
+	translation	-16.25 -1.3 0
+	rotation 0 1 0 1.57
+	children USE bordas_Piscina
+}
+
+#_____________________________________PISCINA_____________________________________________
+
+#PISCINA
+Transform {
+	translation	-11.8 -1.35 0
+	children [
+Shape{
+	appearance Appearance {
+		material Material {
+			diffuseColor 0 1 0
+		}
+		texture	ImageTexture {url "Agua.jpg"} 
+		textureTransform TextureTransform {
+			scale 2 2 
+		}
+	}
+	geometry Box { size	9.0 0.04 4}
+	}
+  ]
+}
+#_______________________________________CADEIRAS____________________________________________
+#CADEIRAS DA DIRETA
+Transform {
+	scale 1.2 1.2 1.2
+    translation -6.7 -1 -0.5
+    rotation 0 1 0 1 
+    children [  
+        Inline {
+                 url ["cadeiras.wrl"]
+               }
+    	]
+}
+
+#CADEIRAS DA DIRETA
+Transform {
+	scale 1.2 1.2 1.2
+    translation -5.7 -1 -0.5
+    rotation 0 1 0 -1  
+    children [ 
+        Inline {
+                 url ["cadeiras.wrl"]
+               }
+    ]
+}
+
+#CADEIRAS DA ESQUERDA
+Transform {
+	scale 1.2 1.2 3
+    translation -17 -1 0
+   rotation 0 1 0 1.57
+    children [  
+        Inline {
+                 url ["cadeiras.wrl"]
+               }
+    	]
+}
+
+#CADEIRAS DA ESQUERDA
+Transform {
+	scale 1.2 1.2 3
+    translation -17 -1 -1.5
+    rotation 0 1 0 1.57 
+    children [  
+        Inline {
+                 url ["cadeiras.wrl"]
+               }
+    	]
+}
+
+#CADEIRAS DA ESQUERDA
+Transform {
+	scale 1.2 1.2 3
+    translation -17 -1 1.5
+    rotation 0 1 0 1.57 
+    children [  
+        Inline {
+                 url ["cadeiras.wrl"]
+               }
+		]
+}
+
+#_______________________________________GUARDA SOL___________________________________________
+
+#Guarda sol
+DEF guardasol Transform {
+    translation -5.99 -0.6 -0.38 
+    children [   
+        Inline {
+                 url ["guardasol.wrl"]
+               }
+		]
+}
+
+#Guarda sol
+Transform {
+    translation -17.8 -0.6 -0.64 
+    children [  
+        Inline {
+                 url ["guardasol.wrl"]
+               }
+    	]
+}
