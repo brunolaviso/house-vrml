@@ -1,7 +1,7 @@
 # EQUIPE
 - Ana Laura Pereira Mariano
 - Bruno Henrique Laviso Adorne
-- Guilherme S
+- Guilherme Schiavon
 - Lucas Pereira dos Santos
 - Shizuka
 - Thiago da Silva Moura
@@ -11,9 +11,14 @@
 Esse projeto é resultado do trabalho solicitado na disciplina de Realidade Virtual ministrado pelo Me. Patrick Pereira. <br>
 O projeto consiste no desenvolvimente de uma casa em realidade virtual na linguagem VRML.
 
-| Membros | Comodo |
+# FUNÇÕES
+| Membros | Cômodo |
 | ----------- | ---------- |
+| Ana Laura | Sala Principal e Corredor |
+| Bruno Laviso | Estrutura casa (Paredes, chão, luzes) |
+| Guilherme Schiavon | Cozinha |
+| Lucas Pereira | Portas e Janelas |
+| Shizuka | Ambiente Externo |
+| Thiago | Banheiro |
 | Victor Augusto | Quartos e documentação |
-| Guilherme Schiavon | Montagem e modelagem do ambiente externo |
-| Bruno | Estrutura casa |
-------------
+-------
