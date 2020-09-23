@@ -1,7 +1,6 @@
-# REPOSITÓRIO
-- [github](https://github.com/brunolaviso/house-vrml)
+# House VRML
 
-# EQUIPE
+## Equipe
 - Ana Laura Pereira Mariano
 - Bruno Henrique Laviso Adorne
 - Guilherme Schiavon
@@ -10,11 +9,11 @@
 - Thiago da Silva Moura
 - Victor Augusto
 
-# DESCRIÇÃO
+## Sobre
 Esse projeto é resultado do trabalho solicitado na disciplina de Realidade Virtual ministrado pelo Me. Patrick Pereira. <br>
 O projeto consiste no desenvolvimente de uma casa em realidade virtual na linguagem VRML.
 
-# FUNÇÕES
+## Funções
 | Membros | Cômodo |
 | ----------- | ---------- |
 | Ana Laura | Sala Principal e Corredor |
@@ -24,5 +23,6 @@ O projeto consiste no desenvolvimente de uma casa em realidade virtual na lingua
 | Shizuka | Ambiente Externo |
 | Thiago | Banheiro |
 | Victor Augusto | Quartos e documentação |
--------
 
+## Repositório
+- [GitHub](https://github.com/brunolaviso/house-vrml)
